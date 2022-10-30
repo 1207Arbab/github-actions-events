@@ -5,7 +5,7 @@ on:
       - opened
   workflow_dispatch: {}
   push:
-    paths-ignore:
+    paths:
       - .github/workflows/*
 
 jobs:
